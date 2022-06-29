@@ -8,7 +8,6 @@ import math
 from .submodule import *
 import pdb
 from models.utils import unet
-from matplotlib import pyplot as plt
 
 class HSMNet(nn.Module):
     def __init__(self, maxdisp,clean,level=1):
